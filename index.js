@@ -29,6 +29,6 @@ client
   .login(client.config.token)
   .then(() => {
     console.log(`Client logged in as ${client.user.username}`);
-    client.user.setActivity("with SVU Departement");
+    client.user.setActivity("with SVU Deparement");
   })
   .catch((err) => console.log(err));
